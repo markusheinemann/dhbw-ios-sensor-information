@@ -11,6 +11,7 @@
 		28668CCC2A2BE47400B15F09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28668CCB2A2BE47400B15F09 /* ContentView.swift */; };
 		28668CCE2A2BE47500B15F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28668CCD2A2BE47500B15F09 /* Assets.xcassets */; };
 		28668CD12A2BE47500B15F09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28668CD02A2BE47500B15F09 /* Preview Assets.xcassets */; };
+		28668CD82A2BE4BB00B15F09 /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28668CD72A2BE4BB00B15F09 /* SensorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		28668CCB2A2BE47400B15F09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		28668CCD2A2BE47500B15F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28668CD02A2BE47500B15F09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28668CD72A2BE4BB00B15F09 /* SensorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorManager.swift; sourceTree = "<group>"; };
+		28668CEE2A2BFCB700B15F09 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		28668CBD2A2BE47400B15F09 = {
 			isa = PBXGroup;
 			children = (
+				28668CEE2A2BFCB700B15F09 /* README.md */,
 				28668CC82A2BE47400B15F09 /* Sensorik */,
 				28668CC72A2BE47400B15F09 /* Products */,
 			);
@@ -51,6 +55,7 @@
 		28668CC82A2BE47400B15F09 /* Sensorik */ = {
 			isa = PBXGroup;
 			children = (
+				28668CD72A2BE4BB00B15F09 /* SensorManager.swift */,
 				28668CC92A2BE47400B15F09 /* SensorikApp.swift */,
 				28668CCB2A2BE47400B15F09 /* ContentView.swift */,
 				28668CCD2A2BE47500B15F09 /* Assets.xcassets */,
@@ -83,6 +88,8 @@
 			dependencies = (
 			);
 			name = Sensorik;
+			packageProductDependencies = (
+			);
 			productName = Sensorik;
 			productReference = 28668CC62A2BE47400B15F09 /* Sensorik.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +118,8 @@
 				Base,
 			);
 			mainGroup = 28668CBD2A2BE47400B15F09;
+			packageReferences = (
+			);
 			productRefGroup = 28668CC72A2BE47400B15F09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28668CCC2A2BE47400B15F09 /* ContentView.swift in Sources */,
+				28668CD82A2BE4BB00B15F09 /* SensorManager.swift in Sources */,
 				28668CCA2A2BE47400B15F09 /* SensorikApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
